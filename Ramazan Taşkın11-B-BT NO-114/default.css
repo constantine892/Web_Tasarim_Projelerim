@@ -1,0 +1,451 @@
+body {
+
+	background-color: #333333;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #7F7772;
+}
+ 
+#divler {
+	width: 760px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+ 
+h1, h2, h3 {
+	margin-bottom: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #ffffff;
+}
+ 
+h1 {
+	font-size: 197%;
+}
+ 
+h2 {
+	font-size: 152%;
+}
+ 
+h3 {
+	font-size: 100%;
+	font-weight: bold;
+}
+ 
+p, ul, ol {
+	margin-bottom: 15px;
+	line-height: 1.6em;
+}
+ 
+ul, ol {
+	margin-left: 2em;
+  
+}
+ 
+blockquote {
+	margin-left: 1em;
+	padding-left: 1em;
+
+	font-style: italic;
+}
+ 
+a:link {
+	color: #0AAAFD;
+}
+
+ 
+a:visited {
+	color: #0AAAFD;
+}
+ 
+img {
+	border: none;
+}
+ 
+img.left {
+	float: left;
+	margin: 0 20px 0 0;
+}
+ 
+img.right {
+	float: right;
+	margin: 0 0 0 20px;
+}
+ /*-------------------------------------------------------------------------------------------------------------------------------------
+/* menü çubuğu anasayfa,filozoflar,felsefe tarihi....... */
+header {
+	text-align: center;
+	padding: 0px 0;
+  }
+ 
+#menu {
+	width: 770px;
+	height: 105px;
+	margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+ 
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: sticky;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    color: #333333;
+}
+ 
+#menu li {
+	display: block;
+	float: left;
+	width: 122px;
+	height: 65px;
+	padding: 40px 0 0 0;
+    color: #333333;
+}
+ 
+#menu a {
+	display: block;
+	width: 122px;
+	height: 32px;
+	padding: 13px 0 0 0;
+	background: url(img/sarı.PNG) no-repeat;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+ 
+ 
+#menu .active {
+	padding-top: 35px;
+}
+ 
+#menu .active a {
+	height: 37px;
+	padding-top: 16px;
+	color: #327EBE;
+    
+}
+/*------------------------------------------------------------------------------------------------------------------------------------
+ 
+/* Header */
+ 
+#header {
+	width: 770px;
+	height: px;
+	margin: 0 auto;
+	
+}
+ /*----------------------------------------------------------------------------------------------------------------------------------------------
+/* Logo */
+ 
+#logo {
+	float: left;
+	width: 250px;
+	height: 160px;
+}
+ 
+#logo h1, #logo h2 {
+	text-align: center;
+}
+ 
+#logo h1 {
+	padding-top: 90px;
+	letter-spacing: 8px;
+	font-size: 197%;
+}
+ 
+#logo h2 {
+	letter-spacing: 2px;
+	font-size: 85%;
+}
+ 
+#logo a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+ /*---------------------------------------------------------------------------------------------------------------------------
+/* Banner */
+ 
+#banner {
+	float: right;
+	width: 520px;
+	height: 160px;
+}
+ 
+#banner a {
+	float: right;
+	padding: 120px 20px 0 0;
+	text-decoration: none;
+	text-align: right;
+	font-size: 136%;
+	font-style: italic;
+	color: #FFFFFF;
+}
+ /*-----------------------------------------------------------------------------------------------------------------------------------------------
+/* Page */
+ 
+#page {
+	width: 760px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+ /*-------------------------------------------------------------------------------------------------------------------------------------
+/* Content */
+ 
+#content {
+	float: right;
+	width: 510px;
+}
+ 
+.post {
+	margin-bottom: 20px;
+}
+ 
+.post .title {
+	padding: 0 20px;
+}
+ 
+.post .story {
+	padding: 0 20px;
+}
+ 
+.post .meta {
+	padding: 5px 20px;
+}
+ 
+.post .meta p {
+	margin: 0;
+	font-size: 77%;
+}
+ 
+.boxed .title {
+	height: 32px;
+	margin: 0;
+	padding: 8px 0 0 20px;
+	letter-spacing: -1px;
+	color: #FF3300;
+}
+ 
+.boxed .story {
+	padding: 20px;
+	border: 1px solid #FF8D17;
+}
+ 
+.boxed .meta {
+	padding: 5px 10px;
+	background: #FF8D17;
+	color: #FFFFFF;
+}
+ 
+.boxed .meta a {
+	color: #FFFFFF;
+}
+ /*---------------------------------------------------------------------------------------------------------------------------------------
+/* Sidebar */
+ 
+#sidebar {
+	float: left;
+	width: 240px;
+}
+ 
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ 
+#sidebar li {
+	margin-bottom: 15px;
+}
+ 
+#sidebar li ul {
+	padding: 10px;
+	border: 1px solid #0AAAFD;
+	border-top: none;
+}
+ 
+#sidebar li li {
+	margin: 0;
+	padding: 3px 0;
+}
+ 
+#sidebar li li.first {
+	background: none;
+}
+ 
+#sidebar li h2 {
+	height: 30px;
+	margin: 0;
+	padding: 10px 0 0 15px;
+	letter-spacing: -1px;
+	color: #327EBE;
+}
+ 
+#sidebar a:link {
+	text-decoration: none;
+}
+ 
+#sidebar a:hover {
+	text-decoration: underline;
+}
+ 
+#sidebar li a {
+	padding-left: 10px;
+}
+ /*------------------------------------------------------------------------------------------------------------------------------------
+/* Footer */
+.footer { background:#222222;width:100%; height:269px;float:left;color:white; font-family:arial;}
+.footer #kutu b {font-size:14px;}
+* {margin:0px;padding:0px;}
+.footer_container{width:768px; height:175px; margin:30px auto;}
+.footerul {list-style-type:none;margin:17px 0;padding:0px;}
+#kutu {width:auto; height:125px; float:left;}
+.footerul li {float:left;font-family:tahoma; font-size:12px; margin-bottom:8px; clear:left; color:#949798; }
+#kutu:last-child li {float:left;clear:none;margin-right:10px;}
+
+
+
+/***************************************************************/
+
+.bilgi .hakkında p {
+	margin: 0;
+	font-size: 77%;
+}
+ 
+.bilgi .başlıklar {
+	height: 32px;
+	margin: 0;
+	padding: 8px 0 0 20px;
+	letter-spacing: -1px;
+	color: #FF3300;
+}
+ 
+.bilgi .hikaye {
+	padding: 20px;
+	border: 1px solid #FF8D17;
+}
+ 
+.bilgi .hakkında {
+	padding: 5px 10px;
+	background: #FF8D17;
+	color: #FFFFFF;
+}
+ 
+.bilgi .hakkında a {
+	color: #FFFFFF;
+}
+
+#bilgi2 {
+	clear: both;
+	height: 80px;
+	padding: 15px 0;
+	background: #D1D1D1;
+	border-top: 5px solid #FF8D17;
+	text-align: center;
+}
+ 
+#bilgi2 p {
+	margin: 0;
+	color: #080808;
+}
+
+
+ /**************************************************************/
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    top: 0 auto;
+    right: 15px;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 500 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+ 
+#contact {
+    background: #333333;
+    padding: 25px;
+    margin: 100px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+ 
+#contact h2 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+ 
+.form-control{
+    border: none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid rgb(53, 53, 53);
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+ 
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.4s ease-in-out;
+    -moz-transition: border-color 0.4s ease-in-out;
+    transition: border-color 0.4s ease-in-out;
+    border: 1px solid rgb(105, 105, 105);
+}
+ 
+#contact textarea {
+    height: 120px;
+    max-width: 100%;
+    resize: none;
+}
+ 
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #79A7A8;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+ 
+#contact button[type="submit"]:hover {
+    background: #355C7D;
+    -webkit-transition: background 0.4s ease-in-out;
+    -moz-transition: background 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+ 
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+ 
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid rgb(82, 82, 82);
+}
