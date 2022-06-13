@@ -1,0 +1,30 @@
+
+<html>
+    <head>
+    <meta charset="utf-8">
+    
+    <style>
+    .kutu{
+        width:250px; height:250px;
+        background-color:red; 
+    }
+    </style>
+    
+    <script>
+    
+    function renkDegistir(renk)
+    {
+       document.getElementById("kutu").style.background=renk;
+    }
+    
+    </script>
+     
+    </head>
+    <body>
+    <div class="kutu" id="kutu" onclick="renkDegistir('black')">
+    </div><br/>
+    <button type="button" onclick="renkDegistir('red')">Kırmızı</button>
+    <button type="button" onclick="renkDegistir('blue')">Mavi</button>
+    <button type="button" onclick="renkDegistir('green')">Yeşil</button>
+    </body>
+    </html>

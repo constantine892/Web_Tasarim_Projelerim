@@ -1,0 +1,75 @@
+body{
+    background-color:black;
+}
+
+#başlık{
+    text-align: center;
+    background-color: rgb(128, 128, 128);
+    height: 100px;
+    width: 700px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px;
+    font-size: 30px;
+    
+    
+}
+#hesap-makinası{
+    border-radius: 15px;
+
+    width: 350px;
+
+    height: 350px;
+
+    background-color:#f87b7b;
+
+    border-bottom: 10px;
+
+    padding: 10px;
+    margin: 70px;
+}
+#sayilar {
+text-align: center;
+}
+button {
+    width: 70px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    box-shadow:0px 3px rgb(43, 255, 0);
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(22, 255, 1);
+}
+#ekran{
+    padding-right: -5px;
+    padding-left: -5px;
+    text-align: center;
+
+}
+
+#sonuç-ekranı{
+    padding: 15px;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 60px; 
+    box-shadow: inset 0px 3px 0px rgb(81, 255, 0);
+  
+    border-radius: 10px;
+}
+button:active{
+    box-shadow:0px 4px rgb(255, 4, 4);
+    transform: translateY(4px);
+}
+
+
+
+
+
+
+
+
+

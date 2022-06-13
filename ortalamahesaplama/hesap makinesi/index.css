@@ -1,0 +1,49 @@
+body{
+    background-color: orange;
+}
+#hesap-makinası{
+    height: auto;
+    width: 350px;
+    height: auto;
+    background-color: gray;
+    border-radius: 12px;
+    padding: 10px;
+}
+#başlık{
+    color: gray;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px ;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#sonuç{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 50px;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+#tablo{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+#buttonlar{
+    width: 70px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px rgb(140, 138, 138);
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(33, 33, 33);
+}

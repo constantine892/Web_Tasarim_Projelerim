@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(247, 186, 73);
+}
+
+#baslik{
+    font-size: 20pt;
+    color:rgb(63, 63, 67);
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgb(209, 255, 255);
+    width: 50%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow:  1px 1px 2px gray;
+}
+
+#hesapMakinesi{
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    background-color: rgb(58, 76, 88);
+    border-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 0px rgb(114, 117,117);
+}
+
+#ekran{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+
+}
+
+#sonuc{
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 50px;
+    word-wrap: break-word;
+    box-shadow: inset 0px 3px 1px rgb(112, 130, 132);
+    border-radius: 10px;
+}
+
+#sayilar {
+text-align: center;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: rgb(255, 255,255);
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px rgb( 140, 138, 138);
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(33,33,33);
+}
+
+button:active{
+    box-shadow: 0px 3px rgb(109, 109, 109);
+    transform: translateY(1px);
+}
+
+
+
+
