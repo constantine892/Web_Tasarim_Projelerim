@@ -1,0 +1,334 @@
+
+
+  .header{
+    padding: 10px;   
+    background-color: #ffffff;  color: rgb(0, 0, 0);
+    position: sticky;
+}
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #34495e;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 30px 10px;
+    height: 10%;
+  }
+  
+
+  .box{
+    background-color: rgba(255, 255, 255, 0.801);
+   
+    
+    }
+    
+    .box2{
+        margin-left: 190px;
+        
+        padding: 10px;
+        background-color: white;
+       
+        
+    }
+    .box2 p{
+     margin-right: 300px;
+    }
+    
+    .box2-1{ 
+        
+        background-color: white;
+        float: left;
+        
+       
+    }
+   
+        
+
+    *{
+      font-family: "Segoe UI",Arial,sans-serif;
+      margin: 0px;
+    }
+    
+      
+      
+
+    .navbar {
+      overflow: hidden;
+      background-color: #282A35;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      position: sticky;
+      
+    }
+    .navbar a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .navbar a:hover {
+        background-color:#000000; 
+       
+      color: rgb(255, 255, 255);
+    }
+
+
+.sidenav {
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 0px;
+    background: rgba(189, 184, 173, 0.864);
+    overflow-x: hidden;
+    
+  position: sticky;
+  float: left;
+  border: 1px solid rgba(0, 0, 0, 0.172);
+   
+    
+  }
+  .sidenav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #282A35;
+  }
+  
+  .main {
+    margin-left: 140px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  
+
+
+  
+
+
+pre code {
+    background-color:  #282A35;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    display: block;
+    margin: 20px;
+    
+    padding: 15px;
+    width: 500px;
+    
+  }
+
+  ul{
+    background-color: rgba(189, 184, 173, 0.864);
+    width: 70%;
+    padding: 30px;
+  }
+  
+
+
+  .reklam{
+    float: right;
+    background-color: #282A35;
+    width: 300px;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 8px;
+    text-align: center;
+    
+   margin: 20px;
+  }
+
+  .sonraki{
+    float: right;
+    background-color: #04AA6D;
+   color: white;
+    padding: 1%;
+    border-radius: 5px;
+  }
+  .önceki{
+    float: left;
+    background-color: #04AA6D;
+   color: white;
+    padding: 1%;
+    border-radius: 5px;
+  }
+  .sonraki:hover{
+    background-color:  #036d46;
+  }
+  .önceki:hover{
+    background-color:   #036d46;
+  }
+  
+  .buton{
+    width: 10%;
+    background-color:  #2196F3;
+   color: white;
+    padding: 1%;
+    border-radius: 5px;
+  }
+
+  .buton:hover{
+    background-color: #04AA6D;
+   
+  }
+  
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color:#04AA6D;
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+
+
+
+
+
+
+  /* reklem */
+  .fab {
+    padding: 8px;
+    font-size: 30px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fab:hover {
+    opacity: 0.6;
+}
+.fa-facebook-f {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+ 
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+ 
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+ 
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+
+
+  

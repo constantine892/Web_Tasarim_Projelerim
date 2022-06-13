@@ -1,0 +1,389 @@
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 500 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+ 
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 100px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+ 
+#contact h2 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+ 
+.form-control{
+    border: none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+ 
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+    
+    border: 1px solid #aaa;
+}
+ 
+#contact textarea {
+    height: 120px;
+    max-width: 100%;
+    resize: none;
+}
+ 
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background:  #282A35;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+ 
+
+
+ 
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #34495e;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 30px 10px;
+    height: 10%;
+  }
+  
+
+  .box{
+    background-color: rgba(255, 255, 255, 0.801);
+   
+    
+    }
+    
+    .box2{
+        margin-left: 190px;
+        margin-right: 300px;
+        padding: 10px;
+        background-color: white;
+        border: 1px  solid rgba(0, 0, 0, 0.426);
+        
+    }
+    
+  
+   
+        
+
+ 
+      *{
+        font-family: "Segoe UI",Arial,sans-serif;
+        margin: 0px;
+      }
+    
+      
+      
+
+.navbar {
+  overflow: hidden;
+  background-color: #282A35;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: sticky;
+  
+}
+.navbar a.active {
+  background-color: #282A35;
+  color: white;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color:#000000; 
+   
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+  
+
+
+
+  ul{
+    background-color: rgba(189, 184, 173, 0.864);
+    width: 70%;
+    padding: 30px;
+  }
+  
+
+
+ 
+
+ 
+  .buton{
+    width: 10%;
+    background-color:  #282A35;
+   color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .boxcss{
+      background-color: #FFF4A3;
+      display: block;
+      padding: 100px 400px;
+       
+  }
+  .boxcss h1{
+      font-size: 90px; 
+     
+      
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color:#282A35;
+    color: rgb(255, 255, 255);
+  }
+  
+  .topnav a.active {
+    background-color:  #282A35;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  
+
+.emin a{
+  color: white;
+}
+
+  .emin a:hover{
+    color: #282A35;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  .footer
+   { background:#222222;width:100%; height:269px;float:left;color:white; font-family:arial;}
+
+
+		.footer #kutu b 
+    {font-size:14px;}
+    
+
+		* 
+    {margin:0px;padding:0px;}
+
+		.footer_container
+    {width:768px; height:175px; margin:30px auto;}
+
+		ul
+     {list-style-type:none;margin:17px 0;padding:0px;}
+
+		#kutu
+     {  float:left;}
+     #kutu a:hover{
+       text-decoration: none;
+       color: rgb(0, 0, 0);
+      
+     }
+     #kutu a{
+       text-decoration: none;
+       color: white;
+       
+      
+     }
+
+		ul li 
+    {float:left;font-family:tahoma; font-size:12px; margin-bottom:8px; clear:left;  }
+
+		#kutu:last-child li
+    {float:left;}
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
