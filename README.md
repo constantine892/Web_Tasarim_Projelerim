@@ -1,1 +1,1 @@
-# Lise 3 sınıf biliişm teknolojileri öğrencisiyim bu repo benim web tasarım çalışmalarımı içericek.
+# Lise 3 sınıf bilişim teknolojileri öğrencisiyim bu repo benim web tasarım çalışmalarımı içericek.
